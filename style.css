@@ -74,6 +74,7 @@ form{
 
 
 @media (max-width:600px) {
+
     nav h1{
         font-size: 36px;
         margin-left:10px ;
@@ -83,5 +84,9 @@ form{
         font-size:15px ;
         padding: 0 10px 0 0;
     }
-
+    #search-here{
+        width: 60%;
+        margin-left: 50px;
+        
+    }
 } 
