@@ -56,6 +56,7 @@ form{
     font-size: 18px;
     text-align: center;
     border-radius: 12px;
+    border: none;
 }
 #searchbtn{
     width: 16%;
@@ -64,16 +65,59 @@ form{
     background-color: rgb(145, 253, 4);
     font-size: 16px;
     color: rgb(39, 25, 25);
-    
+    border: none;
     border-radius: 12px;
 }
-form{
+.top-head{
+    color: white;
+    text-align: center;
+    margin:15px 0 0 0;
+}
+.image-box{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    margin: 20px auto 0;
+    max-width: 1200px;
+    
+}
 
+.inner-box{
+    height: 100%;
+    width: 30%;
+    border:2px solid black;
+    overflow: hidden ;
+    margin-bottom: 30px;
+}
+.inner-box img{
+    height:100% ;
+    width:100% ;
+    object-fit: cover;
+}
+.inner-box a{
+    color:white;
+    display: block;
+    text-decoration: none;
+    padding:10px;
+    text-align: center;
+}
+.show-me{
+    font-size: 20px;
+    display: block;
+    margin:30px auto;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    display: none;
 }
 
 
 
-@media (max-width:600px) {
+@media screen and (max-width:768px) {
 
     nav h1{
         font-size: 36px;
@@ -89,4 +133,19 @@ form{
         margin-left: 50px;
         
     }
+    
+    .image-box{
+        padding: 20px;
+        margin: 0 auto;
+    }
+    .inner-box{
+        width: 45%;
+    }
+
 } 
+
+@media screen and (max-width:480px){
+   .inner-box{
+    width: 100%;
+   }
+}
