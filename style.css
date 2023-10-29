@@ -68,6 +68,10 @@ form{
     color: rgb(39, 25, 25);
     border: none;
     border-radius: 12px;
+
+}
+#searchbtn i{
+   display: none;
 }
 .top-head{
     color: white;
@@ -149,5 +153,11 @@ form{
 @media screen and (max-width:480px){
    .inner-box{
     width: 100%;
+   }
+   #searchbtn i{
+    display: block;
+   }
+   #searchbtn p{
+    display: none;
    }
 }
