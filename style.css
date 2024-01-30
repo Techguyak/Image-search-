@@ -97,7 +97,7 @@ form{
     background: linear-gradient(to bottom right,violet,blue);
     height:200px ;
     width:500px ;
-    object-fit: cover;
+    object-fit:cover;
 }
 .inner-box a{
     color:white;
